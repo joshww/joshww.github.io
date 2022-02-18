@@ -1,256 +1,107 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simple Blog</title>
-    <link href="css/foundation.css" rel="stylesheet" />
-    <link href="css/header.css" rel="stylesheet" />
-    <link href="css/icon-fonts.css" rel="stylesheet" />
-    <link href="css/hover.css" rel="stylesheet" />
-    <link href="css/footer-bottom.css" rel="stylesheet" />
-    <link href="css/menu.css" rel="stylesheet" />
-    <link href="css/blog.css" rel="stylesheet" />
-    <link href="css/fonts.css" rel="stylesheet" />
-    <link href="css/color.css" rel="stylesheet" />
-    <script src="js/modernizr.js"></script>
-</head>
-
-<body>
-    <div class="fixed">
-        <!-- Header and Nav -->
-        <nav class="top-bar" data-topbar>
-            <ul class="title-area">
-                <!-- Title Area -->
-                <li class="name">
-                    <h1>
-                        <a href="./">Website Name
-                        </a>
-                    </h1>
-                </li>
-                <li class="toggle-topbar menu-icon">
-                    <a href="#">
-                        <span>Menu</span>
-                    </a>
-                </li>
-            </ul>
-
-            <section class="top-bar-section">
-                <!-- Left Nav Section -->
-                <ul class="left">
-                    <li class=" menu-icon" id="home-icon">
-                        <a href="./">
-                            <i class="icon-home"></i>
-                            <span class="name">Home</span>
-                        </a>
-                    </li>
-                    <li class=" menu-icon" id="blog-icon">
-                        <a href="/blog/">
-                            <i class="icon-blog"></i>
-                            <span class="name">Blog</span>
-                        </a>
-
-                    </li>
-                    <li class=" menu-icon" id="contact-icon">
-                        <a href="/#contact">
-                            <i class="icon-contact"></i>
-                            <span class="name">Contact</span>
-                        </a>
-                    </li>
-                </ul>
-
-                <ul class="title-area" id="menu-titles">
-                    <!-- Title Area -->
-                    <li class="name hidden" id="home-text">
-                        <h1>
-                            <a href="./">Home
-                            </a>
-                        </h1>
-                    </li>
-                    <li class="name hidden" id="blog-text">
-                        <h1>
-                            <a href="/blog/">Blog
-                            </a>
-                        </h1>
-                    </li>
-                    <li class="name hidden" id="contact-text">
-                        <h1>
-                            <a href="/#contact">Contact
-                            </a>
-                        </h1>
-                    </li>
-
-                </ul>
-
-                <ul class="right">
-                    <li class=" menu-icon">
-                        <a href="#">
-                            <i class="icon-facebook"></i>
-                        </a>
-                    </li>
-                    <li class=" menu-icon">
-                        <a href="#">
-                            <i class="icon-twitter"></i>
-                        </a>
-
-                    </li>
-                    <li class=" menu-icon">
-                        <a href="atom.xml">
-                            <i class="icon-feed"></i>
-                        </a>
-                    </li>
-
-                </ul>
-
-
-            </section>
-        </nav>
-    </div>
-    <div class="content-wrapper">
-        <section id="main-content">
-
-            <!-- Main Page Content and Sidebar -->
-
-            <div class="row">
-
-                <!-- Main Blog Content -->
-                <div class="large-9 columns" role="content">
-
-                    <article>
-
-                        <h1><a href="#">Blog Post Title</a></h1>
-                        <p class="article_pub-date">Published
-                            <time datetime="2014-05-13" pubdate="">May 13, 2014</time>
-                        </p>
-
-                        <div class="row">
-                            <div class="large-12 columns">
-                                <img class="float-right" src="img/desktop2.png" />
-                                <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
-                                <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-                                <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-                                <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-                            </div>
-                        </div>
-                    <a href="#" class="button">Read More</a>
-                    </article>
-
-                    <hr />
-
-                    <article>
-
-                        <h1><a href="#">Blog Post Title</a></h1>
-                        <p class="article_pub-date">Published
-                            <time datetime="2014-05-13" pubdate="">May 13, 2014</time>
-                        </p>
-                        <div class="row">
-                            <div class="large-12 columns">
-                                <img class="float-left" src="img/seo.png" />
-                                <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
-                                <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-                                <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-                                <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-                            </div>
-                        </div>
-                    <a href="#" class="button">Read More</a>
-                    </article>
-
-                </div>
-
-                <!-- End Main Content -->
-
-
-                <!-- Sidebar -->
-
-                <aside class="large-3 columns">
-
-                    <h5>Categories</h5>
-                    <div class="ui secondary vertical pointing menu">
-                        <a href="#" class="active item">News</a>
-                        <a href="#" class="item">Code</a>
-                        <a href="#" class="item">Design</a>
-                        <a href="#" class="item">Fun</a>
-                        <a href="#" class="item">Weasels</a>
-                    </div>
-
-                    <div class="ui vertical menu">
-                        <div class="header item">
-                            <i class="icon-page"></i>
-                            Recent Posts
-                        </div>
-
-                        <div class="item">
-                            <a href="#"><h6>Pork Sausage News!</h6> <p>Pork sausages health benefits proved by government...</p></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><h6>More Amazing Pork Sausage News!</h6> <p>Pork sausages better than viagra...</p></a>
-                        </div>
-                    </div>
-
-                    <div class="ui vertical menu">
-                        <div class="header item">
-                            <i class="icon-page"></i>
-                            Popular Posts
-                        </div>
-                        <div class="item">
-                            <a href="#"><h6>Pork Sausage News!</h6> <p>Pork sausages health benefits proved by government...</p></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><h6>More Amazing Pork Sausage News!</h6> <p>Pork sausages better than viagra...</p></a>
-                        </div>
-                    </div>            
-                </aside>
-
-                <!-- End Sidebar -->
-            </div>
-
-            <!-- End Main Content and Sidebar -->
-
-        </section>
-        <div class="page-footer-bottom">
-            <div class="row">
-                <div class="medium-4 medium-4 push-8 columns">
-
-                    <ul class="home-social">
-                        <li>
-                            <a href="http://www.twitter.com/" class="twitter"></a>
-                        </li>
-                        <li>
-                            <a href="http://www.facebook.com/" class="facebook"></a>
-                        </li>
-                        <li>
-                            <a href="/contact" class="mail"></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="medium-8 medium-8 pull-4 columns">
-                    <ul class="site-links">
-                        <li class="name">
-                            <a href="./">Website Name</a>
-                        </li>
-                        <li>
-                            <a href="./">Home</a>
-                        </li>
-                        <li>
-                            <a href="./">Blog</a>
-                        </li>
-                        <li>
-                            <a href="./">News & Events</a>
-                        </li>
-                    </ul>
-                    <p class="copyright">© 2014 Website. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <script src="js/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
-</body>
-
-</html>
+<!-- ####### I AM THE SOURCE #########-->
+<h1 style="color: #5e9ca0;">Hello! It's me, Josh.</h1>
+<h2 style="color: #2e6c80;">Thank you for visiting my website</h2>
+<p>I appreciate you taking the time to stop by. Please find a helpful list of sections below.</p>
+<p>&nbsp;</p>
+<h1 style="color: #2e6c80;">Sections</h1>
+<ol style="list-style: none; font-size: 14px; line-height: 32px; font-weight: bold;">
+<li style="clear: both;"><img style="float: left;" src="https://html-online.com/img/01-interactive-connection.png" alt="interactive connection" width="45" /><span style="color: #008080;"><a style="color: #008080;" href="#aboutme">About Me</a></span></li>
+<li style="clear: both;"><img style="float: left;" src="https://html-online.com/img/02-html-clean.png" alt="html cleaner" width="45" /><span style="color: #008080;"><a style="color: #008080;" href="#skills">Skills</a></span></li>
+<li style="clear: both;"><img style="float: left;" src="https://html-online.com/img/04-replace.png" alt="replace text" width="45" /><span style="color: #008080;"> <a style="color: #008080;" href="#contact">Contact Info</a></span></li>
+</ol>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="aboutme" style="color: #2e6c80;">About Me</h1>
+<p style="color: #2e6c80;"><span style="color: #000000;">My name is Josh. There's not much else to say.</span></p>
+<p style="color: #2e6c80;">&nbsp;</p>
+<h1 id="skills" style="color: #2e6c80;">Skills</h1>
+<h3 style="color: #2e6c80;">Hard skills:</h3>
+<table class="editorDemoTable" style="height: 500px;">
+<thead>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 178.656px;">Name of the feature</td>
+<td style="height: 18px; width: 235.641px;">Example</td>
+<td style="height: 18px; width: 50.7031px;">Default</td>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 40px;">
+<td style="height: 40px; width: 178.656px;">Remove tag attributes</td>
+<td style="height: 40px; width: 235.641px;"><img style="margin: 1px 15px;" src="images/smiley.png" alt="laughing" width="40" height="16" /> (except <strong>img</strong>-<em>src</em> and <strong>a</strong>-<em>href</em>)</td>
+<td style="height: 40px; width: 50.7031px;">&nbsp;</td>
+</tr>
+<tr style="height: 36px;">
+<td style="height: 36px; width: 178.656px;">Remove inline styles</td>
+<td style="height: 36px; width: 235.641px;"><span style="color: green; font-size: 13px;">You <strong style="color: blue; text-decoration: underline;">should never</strong>&nbsp;use inline styles!</span></td>
+<td style="height: 36px; width: 50.7031px;"><strong style="font-size: 17px; color: #2b2301;">x</strong></td>
+</tr>
+<tr style="height: 36px;">
+<td style="height: 36px; width: 178.656px;">Remove classes and IDs</td>
+<td style="height: 36px; width: 235.641px;"><span id="demoId">Use classes to <strong class="demoClass">style everything</strong>.</span></td>
+<td style="height: 36px; width: 50.7031px;"><strong style="font-size: 17px; color: #2b2301;">x</strong></td>
+</tr>
+<tr style="height: 40px;">
+<td style="height: 40px; width: 178.656px;">Remove all tags</td>
+<td style="height: 40px; width: 235.641px;">This leaves <strong style="color: blue;">only the plain</strong> <em>text</em>. <img style="margin: 1px;" src="images/smiley.png" alt="laughing" width="16" height="16" /></td>
+<td style="height: 40px; width: 50.7031px;">&nbsp;</td>
+</tr>
+<tr style="height: 36px;">
+<td style="height: 36px; width: 178.656px;">Remove successive &amp;nbsp;s</td>
+<td style="height: 36px; width: 235.641px;">Never use non-breaking spaces&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to set margins.</td>
+<td style="height: 36px; width: 50.7031px;"><strong style="font-size: 17px; color: #2b2301;">x</strong></td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 178.656px;">Remove empty tags</td>
+<td style="height: 18px; width: 235.641px;">Empty tags should go!</td>
+<td style="height: 18px; width: 50.7031px;">&nbsp;</td>
+</tr>
+<tr style="height: 36px;">
+<td style="height: 36px; width: 178.656px;">Remove tags with one &amp;nbsp;</td>
+<td style="height: 36px; width: 235.641px;">This makes&nbsp;no sense!</td>
+<td style="height: 36px; width: 50.7031px;"><strong style="font-size: 17px; color: #2b2301;">x</strong></td>
+</tr>
+<tr style="height: 22px;">
+<td style="height: 22px; width: 178.656px;">Remove span tags</td>
+<td style="height: 22px; width: 235.641px;">Span tags with <span style="color: green; font-size: 13px;">all styles</span></td>
+<td style="height: 22px; width: 50.7031px;"><strong style="font-size: 17px; color: #2b2301;">x</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 178.656px;">Remove images</td>
+<td style="height: 20px; width: 235.641px;">I am an image: <img src="images/smiley.png" alt="laughing" /></td>
+<td style="height: 20px; width: 50.7031px;">&nbsp;</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 178.656px;">Remove links</td>
+<td style="height: 18px; width: 235.641px;"><a href="https://html-online.com" rel="nofollow">This is</a> a link.</td>
+<td style="height: 18px; width: 50.7031px;">&nbsp;</td>
+</tr>
+<tr style="height: 36px;">
+<td style="height: 36px; width: 178.656px;">Remove tables</td>
+<td style="height: 36px; width: 235.641px;">Takes everything out of the table.</td>
+<td style="height: 36px; width: 50.7031px;">&nbsp;</td>
+</tr>
+<tr style="height: 36px;">
+<td style="height: 36px; width: 178.656px;">Replace table tags with structured divs</td>
+<td style="height: 36px; width: 235.641px;">This text is inside a table.</td>
+<td style="height: 36px; width: 50.7031px;">&nbsp;</td>
+</tr>
+<tr style="height: 36px;">
+<td style="height: 36px; width: 178.656px;">Remove comments</td>
+<td style="height: 36px; width: 235.641px;">This is only visible in the source editor <!-- HELLO! --></td>
+<td style="height: 36px; width: 50.7031px;"><strong style="font-size: 17px; color: #2b2301;">x</strong></td>
+</tr>
+<tr style="height: 36px;">
+<td style="height: 36px; width: 178.656px;">Encode special characters</td>
+<td style="height: 36px; width: 235.641px;"><span style="color: red; font-size: 17px;">&hearts;</span> <strong style="font-size: 20px;">☺ ★</strong> &gt;&lt;</td>
+<td style="height: 36px; width: 50.7031px;"><strong style="font-size: 17px; color: #2b2301;">x</strong></td>
+</tr>
+<tr style="height: 36px;">
+<td style="height: 36px; width: 178.656px;">Set new lines and text indents</td>
+<td style="height: 36px; width: 235.641px;">Organize the tags in a nice tree view.</td>
+<td style="height: 36px; width: 50.7031px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&nbsp;</strong></p>
+<h1 id="contact" style="color: #2e6c80;">Contact Info</h1>
+<p><a href = "mailto:emailjoshw@protonmail.com">Send me an Email</a></p>
